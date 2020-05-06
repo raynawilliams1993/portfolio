@@ -1,8 +1,8 @@
 
-import React from 'react';
-import { Nav, NavLink } from 'reactstrap';
+import React from './node_modules/react';
+import { Nav, NavLink } from './node_modules/reactstrap';
 
-const navigate = (props) => {
+const Navigate = (props) => {
     return (
 <div>
 <p>Link based</p>
@@ -13,4 +13,4 @@ const navigate = (props) => {
     )
 }
 
-export default navigate;
+export default Navigate;
