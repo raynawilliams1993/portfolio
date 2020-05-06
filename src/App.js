@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navigate from "./components/nav/nav";
 import About from "./components/pages/about";
 import Contact from "./components/pages/contact";
+import Portfolio from "./components/pages/portfolio";
 
 
 function App() {

@@ -1,6 +1,6 @@
 
-import React from './node_modules/react';
-import { Nav, NavLink } from './node_modules/reactstrap';
+import React from 'react';
+import { Nav, NavLink } from 'reactstrap';
 
 const Navigate = (props) => {
     return (
