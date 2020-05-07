@@ -1,26 +1,34 @@
 import React from 'react';
-import { ListGroup, ListGroupItem, ListGroupItemHeading, ListGroupItemText } from 'reactstrap';
+import { ListGroup, ListGroupItem, ListGroupItemHeading, ListGroupItemText, PaginationLink } from 'reactstrap';
 
 const Contact = (props) => {
   return (
     <ListGroup>
       <ListGroupItem active>
-        <ListGroupItemHeading>List group item heading</ListGroupItemHeading>
+        <ListGroupItemHeading>Email</ListGroupItemHeading>
         <ListGroupItemText>
-        Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
+          Raynawilliams123@gmail.com
         </ListGroupItemText>
       </ListGroupItem>
       <ListGroupItem>
-        <ListGroupItemHeading>List group item heading</ListGroupItemHeading>
+        <ListGroupItemHeading>Phone</ListGroupItemHeading>
         <ListGroupItemText>
-        Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
+          (720)-681-3392
         </ListGroupItemText>
       </ListGroupItem>
       <ListGroupItem>
-        <ListGroupItemHeading>List group item heading</ListGroupItemHeading>
-        <ListGroupItemText>
-        Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
-        </ListGroupItemText>
+        <ListGroupItemHeading>LinkedIn Profile</ListGroupItemHeading>
+
+        <ListGroupItem tag="a" href=" https://www.linkedin.com/in/rayna-williams-225965191/">Check it Out!</ListGroupItem>
+    
+    
+
+
+
+
+
+
+
       </ListGroupItem>
     </ListGroup>
   );
