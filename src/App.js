@@ -6,6 +6,7 @@ import Navigate from "./components/nav/nav";
 import About from "./components/pages/about";
 import Contact from "./components/pages/contact";
 import Portfolio from "./components/pages/portfolio";
+import Foot from "./components/footer/footer";
 
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
         <Route path="/contact" render={() => <Contact />} exact />
         <Route path="/portfolio" render={() => <Portfolio />} exact />
       </Router>
+      <Foot>
+        
+      </Foot>
     </div>
   );
 }

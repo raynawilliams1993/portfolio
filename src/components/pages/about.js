@@ -13,14 +13,14 @@ function About() {
         <h1>Rayna K. Williams</h1>
         <h2> Full Stack Web Developer</h2>
       </Hero>
-      <Container style={{ marginTop: 30 }}>
+      <Container style={{ marginTop: 30, marginBottom: 60}}>
         <Row>
           <Col size="md-12">
             <h1>About Me</h1>
           </Col>
         </Row>
         <Row>
-          <Col size="md-12">
+          <Col size="lg-12">
             <p>
               Backend Web Developer and QA Specialist for Amazon with a strong background in management and communication skills with the ability to problem-solve across various work environments. Earned a certificate in Full Stack Web Development from the University of Denver.
         </p>
