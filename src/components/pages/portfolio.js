@@ -19,7 +19,13 @@ const Example = (props) => {
       <Hero backgroundImage="https://images.wallpaperscraft.com/image/scifi_chip_structure_139654_1280x720.jpg">
 
       </Hero>
+      <Card>
+        <h1> Technical Skills </h1>
+        <p>
+        JavaScript, MERN, MySql, NoSql, HTML, CSS, Es6, Handlebars, API, AJAX, AWS and Node.Js. 
 
+        </p>
+      </Card>
       <CardDeck>
         <Card>
           <CardImg top width="100%" src={pic1} alt="Fitness App" />
