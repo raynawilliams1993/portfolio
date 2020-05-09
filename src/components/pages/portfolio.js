@@ -1,66 +1,71 @@
 import React from 'react';
-import { Media } from 'reactstrap';
+import {
+  Card, Button, CardImg, CardTitle, CardText, CardDeck,
+  CardSubtitle, CardBody
+} from 'reactstrap';
+import pic1 from "../assets/fitness.png";
+import pic2 from "../assets/EmployeeDir.png";
 
-const Portfolio = () => {
+
+const Example = (props) => {
   return (
-    <Media list>
-      <Media tag="li">
-        <Media left href="#">
-          <Media object data-src="holder.js/64x64" alt="Generic placeholder image" />
-        </Media>
-        <Media body>
-          <Media heading>
-            Media heading
-          </Media>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-          <Media>
-            <Media left href="#">
-              <Media object data-src="holder.js/64x64" alt="Generic placeholder image" />
-            </Media>
-            <Media body>
-              <Media heading>
-                Nested media heading
-              </Media>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-              <Media>
-                <Media left href="#">
-                  <Media object data-src="holder.js/64x64" alt="Generic placeholder image" />
-                </Media>
-                <Media body>
-                  <Media heading>
-                    Nested media heading
-                  </Media>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                </Media>
-              </Media>
-            </Media>
-          </Media>
-          <Media>
-            <Media left href="#">
-              <Media object data-src="holder.js/64x64" alt="Generic placeholder image" />
-            </Media>
-            <Media body>
-              <Media heading>
-                Nested media heading
-              </Media>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            </Media>
-          </Media>
-        </Media>
-      </Media>
-      <Media tag="li">
-        <Media body>
-          <Media heading>
-            Media heading
-          </Media>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-        </Media>
-        <Media right href="#">
-          <Media object data-src="holder.js/64x64" alt="Generic placeholder image" />
-        </Media>
-      </Media>
-    </Media>
+    <CardDeck>
+      <Card>
+        <CardImg top width="100%"  src={pic1} alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Card title</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
+          <Button>Button</Button>
+        </CardBody>
+      </Card>
+      <Card>
+        <CardImg top width="100%" src={pic2} alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Card title</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
+          <Button>Button</Button>
+        </CardBody>
+      </Card>
+      <Card>
+        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Card title</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
+          <Button>Button</Button>
+        </CardBody>
+      </Card>
+      <Card>
+        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Card title</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
+          <Button>Button</Button>
+        </CardBody>
+      </Card>
+      <Card>
+        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Card title</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
+          <Button>Button</Button>
+        </CardBody>
+      </Card>
+      <Card>
+        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Card title</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
+          <Button>Button</Button>
+        </CardBody>
+      </Card>
+    </CardDeck>
   );
 };
 
-export default Portfolio;
+export default Example;
