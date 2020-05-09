@@ -9,7 +9,7 @@ function About() {
   return (
     <div>
       <Nav />
-      <Hero backgroundImage="https://images.wallpaperscraft.com/image/cosmonaut_space_suit_multicolored_123724_3840x2160.jpg">
+      <Hero backgroundImage="https://images.wallpaperscraft.com/image/silhouette_night_starry_sky_151193_1280x720.jpg">
         <h1>Rayna K. Williams</h1>
         <h2> Full Stack Web Developer</h2>
       </Hero>
