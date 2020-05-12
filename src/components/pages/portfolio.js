@@ -32,18 +32,18 @@ const Example = (props) => {
           <CardBody>
             <CardTitle>Fitness Tracker</CardTitle>
             <CardSubtitle>Card subtitle</CardSubtitle>
-            <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
+            <CardText>A daily fitness log that is able to track the name, type, weight, sets, reps, and duration of the specific exercise.</CardText>
             <Button href="https://github.com/raynawilliams1993/fitnessTracker">GitHub</Button>
             <Button href="https://agile-sands-15513.herokuapp.com/exercise?id=5e4b0f904df7e300171b940d">View App</Button>
           </CardBody>
         </Card>
-     
+
         <Card>
           <CardImg top width="100%" src={pic3} alt="Burger Handlebars App" />
           <CardBody>
             <CardTitle>Burger!</CardTitle>
             <CardSubtitle>Card subtitle</CardSubtitle>
-            <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
+            <CardText>a burger log in app with MySQL, Node, Express, Handlebars and ORMS.</CardText>
             <Button href=" https://github.com/raynawilliams1993/burger">GitHub</Button>
             <Button href="https://eatingburgers2424.herokuapp.com/">View App</Button>
           </CardBody>
@@ -53,7 +53,7 @@ const Example = (props) => {
           <CardBody>
             <CardTitle>Project 1: Bored in Denver?</CardTitle>
             <CardSubtitle>Card subtitle</CardSubtitle>
-            <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
+            <CardText>Using a Ticketmaster API pulls information about certain events. Ajax calls data for a specified date. The Google API used the Routes API, from the Google Maps Platform.</CardText>
             <Button href="https://github.com/7thact/Project01">GitHub</Button>
             <Button href=" https://7thact.github.io/Project01/">View App</Button>
           </CardBody>
@@ -63,7 +63,7 @@ const Example = (props) => {
           <CardBody>
             <CardTitle>Progressive Budget Tracker</CardTitle>
             <CardSubtitle>Card subtitle</CardSubtitle>
-            <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
+            <CardText>A Budget Tracking app that allows the user to update and view the current budget using Node, Express, and NPM packages such as webpack and compression.</CardText>
             <Button href=" https://boiling-escarpment-16918.herokuapp.com/">GitHub</Button>
             <Button href=" https://github.com/raynawilliams1993/budgetTracker">View App</Button>
           </CardBody>
@@ -73,7 +73,7 @@ const Example = (props) => {
           <CardBody>
             <CardTitle>Project 3: Fantasy Basketball</CardTitle>
             <CardSubtitle>Card subtitle</CardSubtitle>
-            <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
+            <CardText>This application was designed for NBA fans to access certain stats for a specific player. Authentication was implemented so that users can sign up and login in to see NBA player's stats.</CardText>
             <Button href="https://github.com/raynawilliams1993/ballerz">GitHub</Button>
             <Button href=" https://ballerz24.herokuapp.com/">View App</Button>
           </CardBody>
