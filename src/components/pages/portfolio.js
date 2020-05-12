@@ -22,8 +22,12 @@ const Example = (props) => {
       <Card>
         <h1> Technical Skills </h1>
         <p>
-          JavaScript, MERN, MySql, NoSql, HTML, CSS, GitHub, Git, Es6, Handlebars, API, AJAX, AWS and Node.Js.
+          JavaScript, MERN, MySql, NoSql, HTML, CSS, GitHub, Git, JSON, Es6, Handlebars, MVP, OOP, Sequelize, ORM, React, ReactStrap, BootStrap, Sass API, AJAX, AWS and Node.Js.
 
+        </p>
+        <h2> Interpersonal Skills</h2>
+        <p>
+          Communication, Conflict Resolution, Problem-Solving, Compassion, Patience, Diversity, Management, Active Listening, Networking, Social Skills and Collaboration.
         </p>
       </Card>
       <CardDeck>
