@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Portfolio",
   "main": "index.js",
+  "engines":  {
+    "node": "12.16.x"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
